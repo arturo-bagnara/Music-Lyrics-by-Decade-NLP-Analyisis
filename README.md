@@ -33,9 +33,9 @@ Build a predictive model of the target label and use appropriate performance met
   - the performance of at least one more predictive model architecture, including description/justification of the optmization steps taken.
   - two bootstrap sampling significance tests of the performance difference between your best model and each of the two baselines.
 
-4.1 Structured Prediction<br>
+4.2 Structured Prediction<br>
 Adapt the Structured Perceptron to your sequence prediction task, and note the performance as baseline.<br>
-Implement a suitable neural net architecture on the data. Compare the best performance of the  models.<br>
+Implement a suitable neural net architecture on the data. Compare the best performance of the  models.
 
 5. Visualizations<br>
 Provide at least 3 visualizations of your work above. These can be in the respective sections. Use labels and legends. Be creative.
