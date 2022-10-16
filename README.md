@@ -6,18 +6,18 @@ The choice of the object of the analysis was left to the students' discretion, h
 
 Below are listed the main objectives and points explicitly required for the project.
 
-1. Research Question<br>
+- Research Question<br>
 Describe what question you are investigating with the data.
 
 
-2. Data, Preprocessing, and Annotation<br>
+- Data, Preprocessing, and Annotation<br>
 Find a data set for text classification and a data set for structured prediction.<br> 
 Split the data into dedicated training, development, and test sets.<br>
 Briefly describe the content and type of the data set, and what you are planning to look at.<br>
 Preprocess the data and explain which preprocessing steps you chose and why, and give statistics of the number of documents, types, and tokens, before and after preprocessing.<br>
 
 
-3. Analysis<br>
+- Analysis<br>
 Use at least five of the following analysis methods to the data set (justify your choices and make them explicit):
   - Word embeddings 
   - Document embeddings
@@ -28,18 +28,18 @@ Use at least five of the following analysis methods to the data set (justify you
   - Language models
   
 
-4. Prediction<br>
-    4.1 Classification<br>
+- Prediction<br>
+    1. Classification<br>
     Build a predictive model of the target label and use appropriate performance metrics. Your predictive analysis needs to involve all of the following, summarized in a table:
     - a most-frequent-label baseline
     - a LogisticRegression baseline with default parameters and 2-6 gram character TFIDF features
     - the performance of at least one more predictive model architecture, including description/justification of the optmization steps taken
     - two bootstrap sampling significance tests of the performance difference between your best model and each of the two baselines.
 
-   4.2 Structured Prediction<br>
+   2. Structured Prediction<br>
     Adapt the Structured Perceptron to your sequence prediction task, and note the performance as baseline.<br>
     Implement a suitable neural net architecture on the data. Compare the best performance of the  models.<br>
     
 
-5. Visualizations<br>
+- Visualizations<br>
 Provide at least 3 visualizations of your work above. These can be in the respective sections. Use labels and legends. Be creative.
