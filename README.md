@@ -31,10 +31,11 @@ Use at least five of the following analysis methods to the data set (justify you
 - Prediction<br>
     1. Classification<br>
     Build a predictive model of the target label and use appropriate performance metrics. Your predictive analysis needs to involve all of the following, summarized in a table:
-      + a most-frequent-label baseline
-      + a LogisticRegression baseline with default parameters and 2-6 gram character TFIDF features
-      + the performance of at least one more predictive model architecture, including description/justification of the optmization steps taken
-      + two bootstrap sampling significance tests of the performance difference between your best model and each of the two baselines.
+    
+      - a most-frequent-label baseline
+      - a LogisticRegression baseline with default parameters and 2-6 gram character TFIDF features
+      - the performance of at least one more predictive model architecture, including description/justification of the optmization steps taken
+      - two bootstrap sampling significance tests of the performance difference between your best model and each of the two baselines.
     
 
    2. Structured Prediction<br>
